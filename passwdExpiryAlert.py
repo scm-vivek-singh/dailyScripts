@@ -8,6 +8,7 @@ from datetime import datetime
 client = boto3.client('iam')
 
 def getUsers():
+    #this function pulls user report from IAM
     userPasswdAge = {}
     response = client.get_credential_report()
     output = str(response['Content'])
