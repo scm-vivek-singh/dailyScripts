@@ -1,3 +1,7 @@
+"""
+This Script is used pull user report form IAm and parses user password age.
+"""
+
 import boto3
 from datetime import datetime
 
