@@ -1,5 +1,5 @@
 """
-This Script is used pull user report form IAm and parses user password age.
+This Script is used to pull user report from IAM and parses user password age.
 """
 
 import boto3
